@@ -1,0 +1,77 @@
+/*div {
+  border: 1px solid black;
+}*/
+
+body {
+  background: white;
+  font-family: "Courier new";
+  font-size: 13px;
+}
+.logo {
+  margin-bottom: 10px;
+}
+.date {
+  margin-top: 20px;
+}
+ul li {
+  display: inline-block;
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  }
+.header {
+ position: absolute;
+ top: 20%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+}
+.newspagecontiner {
+  position: absolute;
+  height: 300px;
+  width: 600px;
+  left: 50%;
+}
+
+
+.image {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+.pagecounter {
+  text-align: center;
+  position: absolute;
+  width: 210px;
+  text-align: center;
+  display: inline-block;
+}
+.archive {
+  width: 210px;
+  display: inline-block;
+  position: absolute;
+  left: 300px;
+}
+.news1 {
+  width: 250px;
+  height: 280px;
+  position: absolute;
+  top: 0%;
+  left: 300px;
+  /*transform: translate(-50%, -50%);*/
+}
+/*.archive {
+  text-align: left;
+  position: absolute;
+  bottom: -20px;
+}*/
+.footer {
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
